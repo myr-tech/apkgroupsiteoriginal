@@ -1,384 +1,364 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media-query.css">
+    <title>Usability Home</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
 
-    <title>Home</title>
-    <link rel="stylesheet" href="style.css">
-    <!--<title>Responsive Card Slider</title>-->
-
-    <!-- Swiper CSS -->
-    <link rel="stylesheet" href="swiper-bundle.min.css">
-    <script src="https://cdn.lordicon.com/ritcuqlt.js"></script>
-
-</head>
-
-<body>
-    <main>
-        <div class="div1">
-            <div class="div1-container">
-                <div class="logoimage">
-                    <img src="images/logobg.png" alt="logoimage here" width="200px" height="90px">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="">Product</a></li>
-                        <li><a href="">Industry</a></li>
-                        <li><a href="">Developer</a></li>
-                        <li><a href="">About Us</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
-                </nav>
-
-
-            </div>
-
+    <!-- navigation bar -->
+    <nav>
+      <div class="container main-nav flex">
+        <a href="#" class="company-logo">
+          <img src="./apkassets/asset 14.jpeg" alt="companylogo" />
+        </a>
+        <div class="nav-links">
+          <ul class="flex">
+            <li><a href="#" class="hover-link">Home</a></li>
+            <li><a href="./product.html" class="hover-link">Products</a></li>
+            <li><a href="./industry.html" class="hover-link">Industry</a></li>
+            <li><a href="./developer.html" class="hover-link">Developer</a></li>
+            <li><a href="./contactus.html" class="hover-link">About US</a></li>
+            <li><a href="./contactus.html" class="hover-link">Contact US</a></li>
+            <!-- <li><a href="#" class="hover-link secondary-button">Sign In</a></li>
+            <li><a href="#" class="hover-link primary-button">Sign Up</a></li> -->
+          </ul>
         </div>
-        <div class="div2">
-            <div class="div2-content">
-                <h1>For both big and small businesses, apk group has been the go-to partner for communication solutions
-                    globally.</h1>
-                <br>
-                <br>
-                <h3>We can move quickly to give customers a seamless experience thanks to our sector-neutral solutions'
-                    wide range of communication channels and skilled support.Communication solutions from end to end
-                </h3>
-            </div>
-
+        <a href="#" class="nav-toggle hover-link">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <!-- header -->
+    <header>
+      <div class="container header-section flex">
+        <div class="header-left">
+          <h1>For both big and small businesses, apk group has been the go-to partner for communication solutions globally.</h1>
+          <p>
+            We can move quickly to give customers a seamless experience thanks to our sector-neutral solutions' wide range of communication channels and skilled support.Communication solutions from end to end
+          </p>
+          <a  href="#" class="primary-button get-strated-button">Get started</a>
         </div>
-        <div class="div3">
-            <div class="div3-content">
-                <img src="images/heropage.jpg" alt="" width="600px" height="400px">
-            </div>
+        <div class="header-right">
+          <img src="./apkassets/asset 1.jpeg" alt="Header Image" />
         </div>
-        <!-----Slider part start here--------->
-        <div class="div4">
-            <div class="div4-content">
-                <div class="slide-container swiper">
-                    <div class="slide-content">
-                        <div class="card-wrapper swiper-wrapper">
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
+      </div>
+    </header>
+<!-- Product section -->
+<div class="container product-area flex">
+         
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+       Messaging
+      </h3>
+    </a>
 
-                                    <div class="card-image">
-                                        <img src="images/messaging.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+        RCS
+      </h3>
+    </a>
 
-                                <div class="card-content">
-                                    <h2 class="name">Messaging</h2>
-                                    <p class="description">Ensure your customer receives transactional, OTP,and
-                                        promotional messages in a timely and secure manner.</p>
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+        WhatsApp Business API
+      </h3>
+    </a>
 
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="images/RCS.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">RCS</h2>
-                                    <p class="description">Enhance the customer experience with 80% more engagement.
-                                    </p>
-
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="images/waapi.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">whatsapp business API</h2>
-                                    <p class="description">Enhance Your Client Experience</p>
-
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="images/voice.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">Voice</h2>
-                                    <p class="description">You Need a Voice for Your Company</p>
-
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="images/email.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">E-mail</h2>
-                                    <p class="description">Bring In More. More sales. Large Figures</p>
-
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="images/HRLookup.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">HLR Lookup</h2>
-                                    <p class="description">Boost Your Business Initiatives
-                                    </p>
-
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="images/chatbot.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">Chatbot</h2>
-                                    <p class="description">Utilize AI's Strength
-                                    </p>
-
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="image-content">
-                                    <span class="overlay"></span>
-
-                                    <div class="card-image">
-                                        <img src="images/leadr.jpg" alt="" class="card-img">
-                                    </div>
-                                </div>
-
-                                <div class="card-content">
-                                    <h2 class="name">LEADr</h2>
-                                    <p class="description">Excellent marketing initiatives. numerous channels greater
-                                        Return.
-                                    </p>
-
-                                    <button class="button">View More</button>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-button-next swiper-navBtn"></div>
-                    <div class="swiper-button-prev swiper-navBtn"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
-                <!-----Slider part END here--------->
-                <!-- Swiper JS -->
-                <!--Uncomment this line-->
-                <script src="swiper-bundle.min.js"></script>
-
-                <!-- JavaScript -->
-                <!--Uncomment this line-->
-                <script src="script.js"></script>
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+        Voice
+      </h3>
+    </a>
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+        Email
+      </h3>
+    </a>
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+        HRL Lookup
+      </h3>
+    </a>
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+        chatbot
+      </h3>
+    </a>
+    <a href="#"class="product-card">
+      <h3 class="card-text">
+        LEADr
+      </h3>
+    </a>
+  </div>
+</div>
+</section>
 
 
-
-
-
-
-            </div>
-
+    <!-- Industry section -->
+    <section class="industry-section">
+      <div class="container">
+        <div class="industry-header">
+          <div class="industry-heading-text">
+            <h2>Explore Our more Industrial Services</h2>
+          </div>
+          <a href="#"class="secondary-button">See Details</a>
         </div>
-        <div class="div5">
-            <h2>Explore Our more Services</h2>
-            <div class="div5-category">
 
-                <div class="ecommerce">
-                    <a href=""><figure>
-                        <lord-icon src="https://cdn.lordicon.com/slkvcfos.json" trigger="click"
-                            colors="primary:#121331,secondary:#1bbdc8" style="width:100px;height:100px">
-                        </lord-icon>
-                        <figcaption>E-commerce</figcaption>
-                    </figure></a>
-                </div>
-
-                <div class="bfsi">
-                   <a href=""> <figure>
-                        <lord-icon src="https://cdn.lordicon.com/jjjmlddk.json" trigger="click"
-                            colors="primary:#121331,secondary:#1bbdc8" style="width:100px;height:100px">
-                        </lord-icon>
-                        <figcaption>BFSI</figcaption>
-                    </figure></a>
-                </div>
-
-                <div class="tnf">
-                    <a href=""><figure>
-
-                        <lord-icon src="https://cdn.lordicon.com/fhtaantg.json" trigger="click"
-                            colors="primary:#121331,secondary:#1bbdc8" style="width:100px;height:100px">
-                        </lord-icon>
-                    
-                    <figcaption>TRAVEL & FOOD</figcaption></figure></a>
-                </div>
-                <div class="healthcare">
-                    <a href=""><figure>
-                        <lord-icon src="https://cdn.lordicon.com/ixlgmsii.json" trigger="click"
-                            colors="primary:#1bbdc8,secondary:#000000" style="width:100px;height:100px">
-                        </lord-icon>
-                        <figcaption>Healthcare</figcaption>
-                    </figure></a>
-
-                </div>
-
-                <div class="realestate">
-                    <a href=""><figure>
-                        <lord-icon src="https://cdn.lordicon.com/xxduqotz.json" trigger="click"
-                            colors="primary:#121331,secondary:#1bbdc8" style="width:100px;height:100px">
-                        </lord-icon>
-
-                        <figcaption>Realestate</figcaption>
-                    </figure></a>
-                </div>
-
-                <div class="logistic">
-                    <a href=""><figure>
-                        <lord-icon src="https://cdn.lordicon.com/uetqnvvg.json" trigger="click"
-                            colors="primary:#121331,secondary:#1bbdc8" style="width:100px;height:100px">
-                        </lord-icon>
-                        <figcaption>logistic</figcaption>
-
-                    </figure></a>
-                </div>
-                <div class="startup">
-                    <a href=""><figure><img src="images/rocket.png" alt="" width="100px" height="100px">
-                    <figcaption>startup</figcaption></figure></a>
-                </div>
-
-                <div class="iot">
-                    <a href=""><figure>
-                        <lord-icon src="https://cdn.lordicon.com/gqzfzudq.json" trigger="click"
-                            style="width:100px;height:100px">
-                        </lord-icon>
-                        <figcaption>IOT</figcaption>
-                    </figure></a>
-
-                </div>
-
-                <div class="entertainment">
-                    <a href=""><figure><img src="images/entertainment.png" alt="" width="100px" height="100px">
-                    <figcaption>entertainment</figcaption></figure></a>
-
-                </div>
-                <div class="govt">
-                    <a href=""><figure>
-                        <img src="images/govt.png" alt="" width="100px" height="100px">
-                        <figcaption>Government</figcaption>
-                    </figure></a>
-                    
-                </div>
-
-
-                <div class="pharma">
-                    <a href=""><figure>
-                        <lord-icon src="https://cdn.lordicon.com/hsotfjpx.json" trigger="click"
-                            style="width:100px;height:100px">
-                        </lord-icon>
-                        <figcaption>Pharmaceutical</figcaption>
-                    </figure></a>
-                </div>
-
-            </div>
-            <div class="div5-image">
-                <img src="images/businessman.jpg" alt="" width="500px" height="700px">
-            </div>
-
+        <div class="industry-area flex">
+          <div class="industry-card flex">
+            <img src="./apkassets/ecommerce.png" alt="" />
+            <h3>E-commerce</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/banking.png" alt="" />
+            <h3>BFSI</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/travel.png" alt="" />
+            <h3>Travel & Food</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/heathcare.png" alt="" />
+            <h3>HealthCare</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/realestate.png" alt="" />
+            <h3>Real Estate</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/logistic.png" alt="" />
+            <h3>Logistic</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/startup.png" alt="" />
+            <h3>StartUp</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/iot.png" alt="" />
+            <h3>IOT</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
+          <div class="industry-card flex">
+            <img src="./apkassets/entertainment.png" alt="" />
+            <h3>Entertainment</h3>
+            <p>Discover How people group and lable information.</p>
+            <a href="#"class="secondary-button">Explore now</a>
+          </div>
         </div>
-        <footer>
-            <div class="footer-content">
-                <div class="fc1">
-                    <h2>Products and Services</h2>
-                    <a href="">Messaging</a>
-                    <a href="">RCS</a>
-                    <a href="">Whatsapp Business API</a>
-                    <a href="">Voice</a>
-                    <a href="">Email</a>
-                    <a href="">HLR LOOKup</a>
-                    <a href="">ChatBot</a>
-                    <a href="">LEADr</a>
+      </div>
+    </section>
 
 
-                </div>
-
-                <div class="fc2">
-                    <h2>Industries</h2>
-                    <a href="">E-commerce</a>
-                    <a href="">BFSI</a>
-                    <a href="">TRAVEL & FOOD</a>
-                    <a href="">Healthcare</a>
-                    <a href="">Realestate</a>
-                    <a href="">Logistic</a>
-                    <a href="">Startup</a>
-                    <a href="">IOT</a>
-                    <a href="">Entertainment</a>
-                    <a href="">Government</a>
-                    <a href="">Pharmaceutical</a>
-                
-
-                </div>
-                <div class="fc3">
-                    <h2>Company</h2>
-                    <a href="">About us</a>
-                    <a href="">Contact Us</a>
-
-                </div>
-
-                <div class="fc4">
-                    <div class="footerlogo">
-                        <img src="images/finallogo.jpg" alt="" width="150px" height="80px">
-                    </div>
-                    House No.594, Near Dande Hospital 
-                    <br>
-                    Hill Road, Ramnagar, Nagpur- 440033
-                    <br>
-                    Email:admin@apkgroup.in
-
-                </div>
-
-            </div>
 
 
-        </footer>
-    </main>
-</body>
 
+
+
+    <!-- big feature section -->
+    <section class="big-feature-section">
+      <div class="container flex big-feature-container">
+        <div class="feature-img">
+          <img src="./apkassets/messaging.jpg" alt="" />
+        </div>
+
+        <div class="feature-desc flex">
+          <h4>effortless validation</h4>
+          <h3>Design professionals</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+            explicabo architecto voluptatibus accusamus numquam, et dicta sunt
+            illo minus natus vel doloremque nemo ut, impedit laudantium ad
+            voluptate, ipsa accusantium!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="big-feature-section">
+      <div
+        class="container flex big-feature-container"id="second-big-feature" >
+        <div class="feature-img">
+          <img src="./assets/asset 21.png" alt="" />
+        </div>
+
+        <div class="feature-desc flex">
+          <h4>effortless validation</h4>
+          <h3>Design professionals</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+            explicabo architecto voluptatibus accusamus numquam, et dicta sunt
+            illo minus natus vel doloremque nemo ut, impedit laudantium ad
+            voluptate, ipsa accusantium!
+          </p>
+        </div>
+        
+      </div>
+    </section>
+    <section class="big-feature-section">
+      <div class="container flex big-feature-container">
+        <div class="feature-img">
+          <img src="./assets/asset 24.png" alt="" />
+        </div>
+
+        <div class="feature-desc flex">
+          <h4>effortless validation</h4>
+          <h3>Design professionals</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error
+            explicabo architecto voluptatibus accusamus numquam, et dicta sunt
+            illo minus natus vel doloremque nemo ut, impedit laudantium ad
+            voluptate, ipsa accusantium!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Products section
+    <section class="product-section">
+      <div class="container">
+        <div class="product-header flex">
+          <div class="product-heading-text">
+            <h2>Our Products</h2>
+          </div>
+          <a href="#" class="secondary-button">See more..</a>
+        </div>
+          -->
+
+
+
+
+
+    <!-- company section -->
+    <!-- <section class="companies-section">
+        <div class="container">
+          <div class="small-bold-text companies-header">
+            The Worlds Best Companies rely on UsabilityHub to make better design
+            decisions.
+          </div>
+          <div class="logos flex">
+            <img class="logo" src="./assets/asset 3.png" alt="amazon logo" />
+            <img class="logo" src="./assets/asset 4.png" alt="amazon logo" />
+            <img class="logo" src="./assets/asset 5.png" alt="amazon logo" />
+            <img class="logo" src="./assets/asset 6.png" alt="amazon logo" />
+            <img class="logo" src="./assets/asset 7.png" alt="amazon logo" />
+            <img class="logo" src="./assets/asset 8.svg" alt="amazon logo" />
+            <img class="logo" src="./assets/asset 9.png" alt="amazon logo" />
+          </div>
+        </div>
+      </section> -->
+
+
+
+
+    <!-- CTA(call to Action) section -->
+    <section class="cta-section">
+      <div class="container flex cta-section-container">
+         <h2>Let's Reach Us</h2>
+            <p>Connect your current applications to Apk Group's SMS, WhatsApp, and email APIs <br> to share alerts and
+              information about medication refills, offers, and services.</p>
+          <a href="#"class="primary-button">Contact Us</a>
+      </div>
+      
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container flex footer-container">
+        <a href="" class="company-logo">
+          <img src="./apkassets/asset 0.png" alt="">
+        </a>
+        <div class="link-column flex">
+          <h4>Products and Services</h4>
+          <a href="#" class="hover-link">Messaging</a>
+          <a href="#" class="hover-link">RCS</a>
+          <a href="#" class="hover-link">Whatsapp Business API</a>
+          <a href="#" class="hover-link">Voice</a>
+          <a href="#" class="hover-link">Email</a>
+          <a href="#" class="hover-link">HRL LOOK-UP</a>
+          <a href="#" class="hover-link">ChatBot</a>
+          <a href="#" class="hover-link">LEADr</a>
+        </div>
+
+        <div class="link-column flex">
+          <h4>Industries</h4>
+          <a href="#" class="hover-link">E-commerce</a>
+          <a href="#" class="hover-link">BFSI</a>
+          <a href="#" class="hover-link">Travel & Food</a>
+          <a href="#" class="hover-link">Healthcare</a>
+          <a href="#" class="hover-link">RealEstate</a>
+          <a href="#" class="hover-link">Logistic</a>
+          <a href="#" class="hover-link">StartUp</a>
+          <a href="#" class="hover-link">IOT</a>
+          <a href="#" class="hover-link">Entertainment</a>
+          <a href="#" class="hover-link">Goverment</a>
+          <a href="#" class="hover-link">Pharmaceutical</a>
+        </div>
+
+        <div class="link-column flex">
+          <h4>Company</h4>
+          <a href="#" class="hover-link">About US</a>
+          <a href="#" class="hover-link">Contact US</a>
+          
+        </div>
+      </div>
+    </footer>
+
+    <!-- SUB FOOTER -->
+    <div class=" flex sub-footer">
+      <div class="container flex sub-footer-container">
+        <a href="#" class="hover-link">Privacy policy</a>
+        <a href="#"class="hover-link">Terms & conditions</a>
+        <a href="#"class="hover-link">Security information</a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-square-facebook"></i></a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"class="hover-link"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <!-- <h3>Some Extra Animation icon for help in devlopment</h3> -->
+
+    <!--go to this link for more https://fontawesome.com/docs/web/style/animate -->
+    <!-- <div class="fa-3x">
+      <i class="fa-solid fa-compact-disc fa-flip"></i>
+      <i class="fa-solid fa-camera-rotate fa-flip"></i>
+      <i class="fa-solid fa-cassette-tape fa-flip"></i>
+      <i class="fa-solid fa-scroll fa-flip" style="--fa-flip-x: 1; --fa-flip-y: 0;" ></i>
+      <i class="fa-solid fa-money-check-dollar fa-flip" style="--fa-animation-duration: 3s;" ></i>
+    </div> 
+    
+    <div class="fa-3x">
+      <i class="fa-solid fa-triangle-person-digging fa-beat-fade"></i>
+      <i class="fa-solid fa-square-exclamation fa-beat-fade"></i>
+      <i class="fa-solid fa-poo-bolt fa-beat-fade" style="--fa-beat-fade-opacity: 0.1; --fa-beat-fade-scale: 1.25;" ></i>
+      <i class="fa-solid fa-circle-info fa-beat-fade" style="--fa-beat-fade-opacity: 0.67; --fa-beat-fade-scale: 1.075;" ></i>
+    </div> -->
+    <!-- <div class="spacer" style="height: 100vh"></div> -->
+
+<!-- Fontawesome Script -->
+
+    <script
+      src="https://kit.fontawesome.com/20d93bd64e.js"
+      crossorigin="anonymous"
+    ></script>     
+  </body>
 </html>
