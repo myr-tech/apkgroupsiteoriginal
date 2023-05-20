@@ -219,7 +219,7 @@ header {
 }
 
 .product-card:nth-child(1) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgba(27, 147, 181, 0.8)), url(./apkassets/messaging.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgba(27, 147, 181, 0.8)), url(./asset/messaging.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     "
@@ -227,7 +227,7 @@ header {
 }
 
 .product-card:nth-child(2) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./apkassets/RCS.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/RCS.jpg
     background-size: contain;
     background-repeat: no-repeat;
     "
@@ -235,7 +235,7 @@ header {
 }
 
 .product-card:nth-child(3) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./apkassets/waapi.svg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/waapi.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     "
@@ -244,7 +244,7 @@ header {
 }
 
 .product-card:nth-child(4) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./apkassets/voice.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/voice.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     "
@@ -253,7 +253,7 @@ header {
 }
 
 .product-card:nth-child(5) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./apkassets/email.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/email.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     "
@@ -262,7 +262,7 @@ header {
 }
 
 .product-card:nth-child(6) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./apkassets/HRLookup.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/HRLookup.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     "
@@ -271,7 +271,7 @@ header {
 }
 
 .product-card:nth-child(7) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./apkassets/chatbot.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/chatbot.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     "
@@ -280,7 +280,7 @@ header {
 }
 
 .product-card:nth-child(8) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./apkassets/leadr.jpg);
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/leadr.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     "
