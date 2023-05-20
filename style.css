@@ -427,12 +427,17 @@ footer {
 /* Page2-PRODUCT_PAGE */
 .products-page{
     margin-top: 150px;
-    text-align: start
     
+    
+}
+.product-box{
+    justify-content: space-between;
 }
 .p-left{
     
     width: 50vw;
+    padding: 20px;
+    text-align: justify;
 }
 .p-right img{
     
@@ -441,4 +446,20 @@ footer {
 }
 #second-product-box{
     flex-direction: row-reverse;
+}
+
+/* developer page */
+.developer-page{
+    margin-top: 100px;
+}
+
+/* AboutUS Page */
+.aboutus-page{
+    margin-top: 100px;
+
+}
+
+/* contactus-page */
+.contactus-page{
+    margin-top: 150px;
 }
