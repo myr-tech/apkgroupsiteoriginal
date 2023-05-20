@@ -89,4 +89,10 @@
  .header-section {
     align-items: center;
  }
+ .header-right{
+    width: 70vw;
+ }
+ .header-right img{
+    width: 100%;
+ }
  }
