@@ -227,7 +227,7 @@ header {
 }
 
 .product-card:nth-child(2) {
-    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/RCS.jpg
+    background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/RCS.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     "
