@@ -62,7 +62,11 @@ ul {
     padding-inline: var(--padding-inline-section);
     overflow: hidden;
 }
-
+.sidebar{
+    display: flex;
+    position: fixed;
+    height: 100vh;
+}
 .banner-text {
     color: white;
     padding: 15px 30px;
