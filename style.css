@@ -462,6 +462,8 @@ footer {
 /* AboutUS Page */
 .aboutus-page{
     margin-top: 100px;
+    align-items: center;
+    text-align: center;
 
 }
 
