@@ -129,6 +129,7 @@ ul {
     box-shadow: 0px 5px 10px 0px #606464;
     background-color: #fefefe;
     z-index: +5;
+    
 
 }
 
@@ -147,7 +148,7 @@ ul {
 .nav-links {
     flex-basis: 730px;
 }
-
+/* nav-toggle is for hamberger icon */
 .nav-toggle {
     display: none;
 }
@@ -387,6 +388,7 @@ header {
     flex-direction: column;
     gap: 30px;
     color: white;
+    text-align: center;
 }
 
 .cta-section-container p {

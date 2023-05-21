@@ -4,12 +4,30 @@
     }
     
     /* navbar */
+    .main-nav{
+      overflow: initial;
+      
+    }
     .nav-toggle{
        display: block;
        margin-right: 20px;
     }
     .nav-links{
-       display: none;
+       position: absolute;
+       left: -100%;
+       top:100%;
+       width: 100%;
+       
+    }
+    .nav-links ul{
+      flex-direction: column;
+      background-color: #1bbcc8e0;
+      padding-block: 20px;
+      
+    }
+/*  active class for toggling */
+    .nav-links.active{
+      left: 0;
     }
     /* product section */
     .product-area{
