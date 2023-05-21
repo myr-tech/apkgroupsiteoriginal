@@ -15,7 +15,7 @@
           <a href="#" class="company-logo">
             <img src="./asset/asset 14.jpeg" alt="companylogo" />
           </a>
-          <div class="nav-links">
+          <div class="nav-links" id="nav-links">
             <ul class="flex">
               <li><a href="./index.html" class="hover-link">Home</a></li>
               <li><a href="./product.html" class="hover-link">Products</a></li>
@@ -27,7 +27,7 @@
               <li><a href="#" class="hover-link primary-button">Sign Up</a></li> -->
             </ul>
           </div>
-          <a href="#" class="nav-toggle hover-link">
+          <a href="#" class="nav-toggle hover-link" id="nav-toggle">
             <i class="fa-solid fa-bars"></i>
           </a>
 
@@ -110,5 +110,15 @@
       src="https://kit.fontawesome.com/20d93bd64e.js"
       crossorigin="anonymous"
     ></script> 
+    <script>
+      const toggleButton=document.getElementById('nav-toggle');   
+      
+      const navLinks=document.getElementById('nav-links');
+
+      toggleButton.addEventListener('click',()=>{navLinks.classList.toggle('active');
+    })
+
+
+    </script> 
 </body>
 </html>

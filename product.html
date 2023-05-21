@@ -15,9 +15,9 @@
         <a href="#" class="company-logo">
           <img src="./asset/asset 14.jpeg" alt="companylogo" />
         </a>
-        <div class="nav-links">
+        <div class="nav-links"id="nav-links">
           <ul class="flex">
-            <li><a href="./index.html" class="hover-link">Home</a></li>
+            <li><a href="./index.html" class="hover-link" >Home</a></li>
             <li><a href="#" class="hover-link">Products</a></li>
             <li><a href="./industry.html" class="hover-link">Industry</a></li>
             <li><a href="./developer.html" class="hover-link">Developer</a></li>
@@ -29,7 +29,7 @@
           <li><a href="#" class="hover-link primary-button">Sign Up</a></li> -->
           </ul>
         </div>
-        <a href="#" class="nav-toggle hover-link">
+        <a href="#" class="nav-toggle hover-link " id="nav-toggle">
           <i class="fa-solid fa-bars"></i>
         </a>
       </div>
@@ -170,5 +170,16 @@
       src="https://kit.fontawesome.com/20d93bd64e.js"
       crossorigin="anonymous"
     ></script>
+    <!-- for toggling navbar when screen less than 991px -->
+    <script>
+      const toggleButton=document.getElementById('nav-toggle');   
+      
+      const navLinks=document.getElementById('nav-links');
+
+      toggleButton.addEventListener('click',()=>{navLinks.classList.toggle('active');
+    })
+
+
+    </script> 
   </body>
 </html>
