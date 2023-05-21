@@ -25,6 +25,9 @@
       padding-block: 20px;
       
     }
+    .nav-links ul li a{
+      font-size: 1.3rem;
+  }
 /*  active class for toggling */
     .nav-links.active{
       left: 0;
