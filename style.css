@@ -461,10 +461,12 @@ footer {
 
 /* AboutUS Page */
 .aboutus-page{
+    width: 60vw;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 150px;
     align-items: center;
-    text-align: center;
+    text-align: justify;
+    padding-block: 20px;
 
 }
 
