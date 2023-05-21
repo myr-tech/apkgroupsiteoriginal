@@ -62,11 +62,13 @@ ul {
     padding-inline: var(--padding-inline-section);
     overflow: hidden;
 }
-.sidebar{
+
+.sidebar {
     display: flex;
     position: fixed;
     height: 100vh;
 }
+
 .banner-text {
     color: white;
     padding: 15px 30px;
@@ -127,9 +129,9 @@ ul {
     top: 1px;
     justify-content: space-between;
     box-shadow: 0px 5px 10px 0px #606464;
-    background-color: #fefefe;
+    background-color: #fefefebb;
     z-index: +5;
-    
+
 
 }
 
@@ -148,6 +150,7 @@ ul {
 .nav-links {
     flex-basis: 730px;
 }
+
 /* nav-toggle is for hamberger icon */
 .nav-toggle {
     display: none;
@@ -227,7 +230,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgba(27, 147, 181, 0.8)), url(./asset/messaging.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 
 }
 
@@ -235,7 +238,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/RCS.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 
 }
 
@@ -243,7 +246,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/waapi.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -252,7 +255,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/voice.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -261,7 +264,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/email.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -270,7 +273,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/HRLookup.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -279,7 +282,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/chatbot.jpg);
     background-size: contain;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -288,7 +291,7 @@ header {
     background: linear-gradient(rgb(0, 0, 0, 0.1), rgb(17, 143, 177, 0.8)), url(./asset/leadr.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 
 
 }
@@ -380,7 +383,8 @@ header {
 
 /* CTA section */
 .cta-section {
-    background-color: #183b54;
+    background-color:
+        #05565c;
     padding: 100px var(--padding-inline-section) 80px;
 }
 
@@ -428,39 +432,45 @@ footer {
     background-color: #b9cde4;
     flex-wrap: wrap;
 }
+
 /* END PAGE1 */
 
 /* Page2-PRODUCT_PAGE */
-.products-page{
+.products-page {
     margin-top: 150px;
-    
-    
+
+
 }
-.product-box{
+
+.product-box {
     justify-content: space-between;
+
 }
-.p-left{
-    
+
+.p-left {
+
     width: 50vw;
     padding: 20px;
     text-align: justify;
 }
-.p-right img{
-    
+
+.p-right img {
+
     width: 100%;
     height: 30vw;
 }
-#second-product-box{
+
+#second-product-box {
     flex-direction: row-reverse;
 }
 
 /* developer page */
-.developer-page{
+.developer-page {
     margin-top: 100px;
 }
 
 /* AboutUS Page */
-.aboutus-page{
+.aboutus-page {
     width: 60vw;
     flex-direction: column;
     margin-top: 150px;
@@ -471,6 +481,142 @@ footer {
 }
 
 /* contactus-page */
-.contactus-page{
-    margin-top: 150px;
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100,300');
+
+/* ------------- */
+/* GLOBAL STYLES */
+/* ------------- */
+
+.contactus-page {
+    margin-top: 100px;
+}
+
+
+.brand {
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+
+
+.wrapper {
+    box-shadow: 0 0 20px 0 rgba(57, 82, 163, 0.7);
+}
+
+.wrapper>* {
+    padding: 1em;
+}
+
+/* ------------------- */
+/* COMPANY INFORMATION */
+/* ------------------- */
+
+.company-info {
+    background:
+        #6aeff8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.company-info h3,
+.company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+/* ------- */
+/* CONTACT */
+/* ------- */
+
+.contact {
+    background: #dcdfea;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+/* ---- */
+/* FORM */
+/* ---- */
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.contact form label {
+    display: block;
+}
+
+.contact form p {
+    margin: 0;
+}
+
+.contact form .full {
+    grid-column: 1 / 3;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: solid 1px #011e20;
+    border-radius: 4px;
+}
+
+.contact form textarea {
+    resize: none;
+}
+
+.contact form button {
+    background: #1bbdc8;
+    border: 0;
+    color: #e4e4e4;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+    background:
+        #04595f;
+    color: #ffffff;
+    outline: 0;
+    transition: background-color 2s ease-out;
+}
+
+/* ------------- */
+/* MEDIA QUERIES */
+/* ------------- */
+
+@media only screen and (min-width: 700px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .wrapper>* {
+        padding: 2em;
+    }
+
+    .company-info {
+        border-radius: 4px 0 0 4px;
+    }
+
+    .contact {
+        border-radius: 0 4px 4px 0;
+    }
+
+    .company-info h3,
+    .company-info ul,
+    .brand {
+        text-align: left;
+    }
 }
