@@ -132,7 +132,7 @@ width: 80vw;}
  .header-left{
     width: 70vw;
  }
- /* product page */
+ /********************************* product page************************************************ */
  .p-left {
    width: 95vw;}
    .p-left h1,h2{
@@ -147,6 +147,10 @@ width: 80vw;}
 .sub-footer-container{
    flex-direction: column;
 }
+/* ******************************************About Us page************************************** */
 
+.aboutus-page {
+width: 90vw;
 
+}
  }
