@@ -223,10 +223,6 @@ header {
     border-radius: 5px;
     margin: 5px;
     flex-wrap: wrap;
-
-
-
-
 }
 
 .product-card:nth-child(1) {
@@ -311,7 +307,7 @@ header {
     color: white;
 }
 
-/* company section */
+/* company section
 .companies-header {
     text-align: center;
     margin-block: 38px;
@@ -328,12 +324,12 @@ header {
 .logo {
     height: 48px;
 
-}
+} */
 
 /* Industry section */
 
 .industry-section {
-    padding: 80px var(--padding-inline-section) 0;
+    padding: 20px var(--padding-inline-section) 0;
     background-image: url(./assets/asset\ 34.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -356,15 +352,17 @@ header {
 
 .industry-card {
     flex-direction: column;
-    
-    gap: 20px;
+    word-wrap: inherit;
+    gap: 10px;
     width: 30%;
     text-align: center;
-    margin-block: 10px;
+    margin-block: 5px;
+   
     
 }
 .industry-card p{
     font-size: 1rem;
+    width: 90%;
 }
 
 /* big feature */
