@@ -144,7 +144,9 @@ width: 80vw;}
       width: 100%;
       height: 40vw;
    }
-
+.sub-footer-container{
+   flex-direction: column;
+}
 
 
  }

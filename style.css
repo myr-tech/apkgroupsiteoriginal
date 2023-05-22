@@ -424,12 +424,15 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 10px;
+    
+    
 }
 
 /* subFooter */
 .sub-footer {
     background-color: #b9cde4;
-    padding: 30px var(--padding-inline-section) 30px;
+    padding: 20px var(--padding-inline-section) 20px;
+    
 
 }
 
@@ -438,6 +441,8 @@ footer {
     gap: 20px;
     background-color: #b9cde4;
     flex-wrap: wrap;
+    padding: 5px;
+    
 }
 
 /* END PAGE1 */
