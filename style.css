@@ -423,7 +423,7 @@ footer {
 .link-column {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    /* gap: 10px; */
     
     
 }
