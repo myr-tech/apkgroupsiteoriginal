@@ -159,19 +159,21 @@ ul {
     position: relative;
 }
 .industry-h{
-   display: none;
-   flex-direction: column;
     position: absolute;
-    top:200px;
-    
-    width: 15vw;
-    background-color: #04595f;
+    top: 30px;
+    /* left: 170px; */
+    display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: fit-content;
+    height: fit-content;
+    background-color: #18d8e5;
     padding: 10px;
     border-radius: 5px;
     
 }
 
-.nav-links ul li a:hover .industry-h{
+.nav-links ul #ind-click:hover .industry-h{
     display: block;
 }
 
@@ -653,3 +655,4 @@ footer {
         text-align: left;
     }
 }
+/* Ecommerce Page */
