@@ -103,6 +103,7 @@ width: 80vw;}
  }
  
  }
+ /* ...............................................screen  476................................. */
  @media  screen and (max-width:476px){
   :root{
     --padding-inline-section:7px;
@@ -117,12 +118,13 @@ width: 80vw;}
  }
  
  h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    text-align: justify;
  }
  
  p {
     
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: var(--secondary-text-color);
     line-height: 1.2rem;
  }
