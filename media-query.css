@@ -58,8 +58,17 @@ width: 80vw;}
        padding: 50px var(--padding-inline-section) 50px;
     }
  }
- 
+ /* /..................................screen    767........................ */
  @media  screen and (max-width:767px){
+   .h3{
+      font-size: 1rem;
+      text-align: justify;
+   }
+   p{
+      font-size: 0.8rem;
+      line-height: 1.2rem;
+      text-align: justify;
+   }
     .primary-button {
        width: 100%;
    }

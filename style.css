@@ -656,3 +656,17 @@ footer {
     }
 }
 /* Ecommerce Page */
+.ecom-page-header-img {
+    background-image: url("./asset/E-compagehead.png");
+    width: 100vw;
+   justify-content: center;
+   padding: 10px;
+   overflow: hidden;
+  
+   
+   margin: 0;
+   
+}
+.ecom-page-header-img img{
+    
+}
