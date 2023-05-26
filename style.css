@@ -60,7 +60,7 @@ ul {
     width: 100%;
     margin-inline: auto;
     padding-inline: var(--padding-inline-section);
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .sidebar {
@@ -143,15 +143,36 @@ ul {
 
 .nav-links ul {
     justify-content: end;
-    gap: 40px;
+    gap: 30px;
+    
 
 }
+
 .nav-links ul li a{
     font-size: 1.2rem;
+    padding: 5px;
+    /* margin: 5px; */
 }
 
 .nav-links {
-    flex-basis: 730px;
+    flex-basis: auto;
+    position: relative;
+}
+.industry-h{
+   display: none;
+   flex-direction: column;
+    position: absolute;
+    top:200px;
+    
+    width: 15vw;
+    background-color: #04595f;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
+.nav-links ul li a:hover .industry-h{
+    display: block;
 }
 
 /* nav-toggle is for hamberger icon */
