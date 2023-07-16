@@ -110,21 +110,27 @@ width: 80vw;}
   }
  
   h1 {
-    font-size: 1rem;
+    font-size: 2rem;
  }
  
  h2 {
-    font-size: 1rem;
+    font-size: 1.5rem;
  }
  
  h3 {
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: justify;
  }
- 
+ h4{
+   font-size: 1rem;
+   text-align: justify;
+ }
+ a{
+   font-size: 1rem;
+ }
  p {
     
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--secondary-text-color);
     line-height: 1.2rem;
  }
@@ -164,4 +170,11 @@ width: 80vw;}
 width: 90vw;
 
 }
+
+.link-column{
+   gap: 10px;
+   justify-content: center;
+}
+
+
  }
