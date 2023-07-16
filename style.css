@@ -480,17 +480,15 @@ footer {
 /* ------------------- */
 
 .company-info {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
     background:
         #6aeff8;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+        align-items: center;
+    
 }
 
-.company-info h3,
-.company-info ul {
-    text-align: center;
-    margin: 0 0 1rem 0;
-}
 
 /* ------- */
 /* CONTACT */
